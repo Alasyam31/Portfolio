@@ -552,6 +552,14 @@ footer p {
   .section__text__p2 {
     font-size: 1.25rem;
   }
+  .section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  height: auto; /* or keep 80% if you prefer */
+}
   .title {
     font-size: 2rem;
   }
